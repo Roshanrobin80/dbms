@@ -1,6 +1,6 @@
 #create
 
-import sqlite3
+'''import sqlite3
 con = sqlite3.connect("dbms/batch7.db")
 try:
     con.execute("create table std(roll_no int,name text,age int)")
@@ -18,7 +18,7 @@ except:
 # con.execute("insert into std(roll_no,name,age)values(1,'liya',18),(2,'aparna',20),(3,'nora',18)")
 # con.commit()
 con.execute("insert into mark(roll_no,sub,mark)values(1,'cs',75),(1,'che',70),(2,'cs',65),(4,'py',55)") 
-con.commit()
+con.commit()'''
 # roll=int(input("Enter roll no :"))
 # name=input("Enter name :")
 # age=int(input("Enter age :"))
